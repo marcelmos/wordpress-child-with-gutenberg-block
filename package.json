@@ -1,0 +1,19 @@
+{
+  "name": "twentytwentyone-child",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss assets/css/scss/source.scss assets/css/style.css --output-style compressed",
+    "build-scripts": "wp-scripts build",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "start-build": "wp-scripts start"
+  },
+  "author": "Marcel Moś",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "19.2.2",
+    "node-sass": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}

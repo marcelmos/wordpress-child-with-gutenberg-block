@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+@mixin sectionHeader {
+    //styleName: H1;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 52px;
+    letter-spacing: 0px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+@mixin sectionParagraph{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+@mixin pageContentPadding{
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
